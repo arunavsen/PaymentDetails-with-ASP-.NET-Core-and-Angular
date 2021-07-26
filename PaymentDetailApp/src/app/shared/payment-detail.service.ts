@@ -26,4 +26,8 @@ export class PaymentDetailService {
   putPaymentDetail() {
     return this.http.put(`${this.baseURl}/${this.formData.pmid}`,this.formData);
   }
+
+  deletePaymentDetail(id:number){
+    return this.http.delete(`${this.baseURl}/${id}`);
+  }
 }

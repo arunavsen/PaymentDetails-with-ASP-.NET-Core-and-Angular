@@ -22,7 +22,7 @@
                     <td (click)="populateForm(pd)">{{pd.cardNumber}}</td>
                     <td (click)="populateForm(pd)">{{pd.expirationDate}}</td>
                     <td>
-                        <i class="fa fa-trash fa-lg text-danger"></i>
+                        <i class="fa fa-trash fa-lg text-danger" (click)="onDelete(pd.pmid)"></i>
                     </td>
                 </tr>
             </tbody>
