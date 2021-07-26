@@ -3,5 +3,5 @@ export class PaymentDetail{
     cardOwnerName: string='';
     cardNumber: string='';
     expirationDate: string='';
-    securityCode: string='';
+    CVV: string='';
 }
